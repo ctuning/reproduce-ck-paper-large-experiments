@@ -1,0 +1,15 @@
+{
+  "data_name": "Large and shared artifacts (HOG experiments) to reproduce CK paper", 
+  "data_alias": "reproduce-ck-paper-large-experiments", 
+  "data_uid": "1974215bd62897e9", 
+  "data_uoa": "reproduce-ck-paper-large-experiments", 
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-analytics"
+      }
+    ], 
+    "url": "https://github.com/ctuning/reproduce-ck-paper-large-experiments", 
+    "shared": "git"
+  }
+}
