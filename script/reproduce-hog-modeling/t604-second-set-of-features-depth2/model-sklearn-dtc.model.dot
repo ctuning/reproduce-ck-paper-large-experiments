@@ -1,15 +1,15 @@
 digraph Tree {
-0 [label="X[0]: worksize <= 40.0000\nsamples = 276", shape="box"] ;
-1 [label="X[7]: image rows <= 620.5000\nsamples = 92", shape="box"] ;
-0 -> 1 ;
-2 [label="*L1*\nsamples = 8\nTrue (6) / False (2)", shape="box"] ;
-1 -> 2 ;
-3 [label="*L2*\nsamples = 84\nTrue (84) / False (0)", shape="box"] ;
-1 -> 3 ;
-4 [label="X[6]: image columns <= 3037.0000\nsamples = 184", shape="box"] ;
-0 -> 4 ;
-5 [label="*L3*\nsamples = 160\nTrue (0) / False (160)", shape="box"] ;
-4 -> 5 ;
-6 [label="*L4*\nsamples = 24\nTrue (4) / False (20)", shape="box"] ;
-4 -> 6 ;
+0 [label="if X[0] (worksize) <= 40.0000\nsamples = 276", shape="box"] ;
+1 [label="if X[7] (image rows) <= 620.5000\nsamples = 92", shape="box"] ;
+0 -> 1 [label="yes"];
+2 [label="*L1*\nsamples = 8\nNO (6) / YES (2)\n\n*NO*", shape="box"] ;
+1 -> 2 [label="yes"];
+3 [label="*L2*\nsamples = 84\nNO (84) / YES (0)\n\nNO", shape="box"] ;
+1 -> 3 [label="no"];
+4 [label="if X[8] (image size) <= 9224738.0000\nsamples = 184", shape="box"] ;
+0 -> 4 [label="no"];
+5 [label="*L3*\nsamples = 160\nNO (0) / YES (160)\n\nYES", shape="box"] ;
+4 -> 5 [label="yes"];
+6 [label="*L4*\nsamples = 24\nNO (4) / YES (20)\n\n*YES*", shape="box"] ;
+4 -> 6 [label="no"];
 }

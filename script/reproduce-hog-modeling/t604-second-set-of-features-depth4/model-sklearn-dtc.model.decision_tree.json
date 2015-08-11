@@ -16,17 +16,11 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "4", 
-        "value": "1200.0000"
-      }, 
-      "", 
-      {
-        "comparison": "<=", 
         "feature": "5", 
         "value": "399.5000"
       }
     ], 
-    "dot_label": "4", 
+    "dot_label": "3", 
     "value": false
   }, 
   "3": {
@@ -42,6 +36,12 @@
         "comparison": "<=", 
         "feature": "7", 
         "value": "620.5000"
+      }, 
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "5", 
+        "value": "399.5000"
       }, 
       "not ", 
       {
@@ -67,17 +67,17 @@
         "feature": "7", 
         "value": "620.5000"
       }, 
-      "", 
-      {
-        "comparison": "<=", 
-        "feature": "4", 
-        "value": "1200.0000"
-      }, 
       "not ", 
       {
         "comparison": "<=", 
         "feature": "5", 
         "value": "399.5000"
+      }, 
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "4", 
+        "value": "1200.0000"
       }
     ], 
     "dot_label": "5", 
@@ -133,13 +133,13 @@
         "feature": "6", 
         "value": "3037.0000"
       }, 
-      "not ", 
+      "", 
       {
         "comparison": "<=", 
-        "feature": "2", 
-        "value": "38.0000"
+        "feature": "0", 
+        "value": "96.0000"
       }, 
-      "", 
+      "not ", 
       {
         "comparison": "<=", 
         "feature": "4", 
@@ -147,7 +147,7 @@
       }
     ], 
     "dot_label": "13", 
-    "value": true
+    "value": false
   }, 
   "6": {
     "decision": [
@@ -166,11 +166,17 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "2", 
-        "value": "38.0000"
+        "feature": "0", 
+        "value": "96.0000"
+      }, 
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "4", 
+        "value": "1200.0000"
       }
     ], 
-    "dot_label": "11", 
+    "dot_label": "12", 
     "value": true
   }, 
   "8": {
@@ -190,17 +196,11 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "2", 
-        "value": "38.0000"
-      }, 
-      "not ", 
-      {
-        "comparison": "<=", 
-        "feature": "4", 
-        "value": "1200.0000"
+        "feature": "0", 
+        "value": "96.0000"
       }
     ], 
     "dot_label": "14", 
-    "value": false
+    "value": true
   }
 }

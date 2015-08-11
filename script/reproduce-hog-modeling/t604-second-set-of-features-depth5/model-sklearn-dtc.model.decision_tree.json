@@ -16,17 +16,11 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "4", 
-        "value": "1200.0000"
-      }, 
-      "", 
-      {
-        "comparison": "<=", 
         "feature": "5", 
         "value": "399.5000"
       }
     ], 
-    "dot_label": "4", 
+    "dot_label": "3", 
     "value": false
   }, 
   "3": {
@@ -42,6 +36,12 @@
         "comparison": "<=", 
         "feature": "7", 
         "value": "620.5000"
+      }, 
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "5", 
+        "value": "399.5000"
       }, 
       "not ", 
       {
@@ -67,17 +67,17 @@
         "feature": "7", 
         "value": "620.5000"
       }, 
-      "", 
-      {
-        "comparison": "<=", 
-        "feature": "4", 
-        "value": "1200.0000"
-      }, 
       "not ", 
       {
         "comparison": "<=", 
         "feature": "5", 
         "value": "399.5000"
+      }, 
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "4", 
+        "value": "1200.0000"
       }
     ], 
     "dot_label": "5", 

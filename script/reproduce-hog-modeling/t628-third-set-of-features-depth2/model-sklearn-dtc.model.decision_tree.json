@@ -4,7 +4,7 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "2", 
+        "feature": "1", 
         "value": "14.0000"
       }, 
       "", 
@@ -22,7 +22,7 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "2", 
+        "feature": "1", 
         "value": "14.0000"
       }, 
       "", 
@@ -40,7 +40,7 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "2", 
+        "feature": "1", 
         "value": "14.0000"
       }, 
       "not ", 
@@ -58,7 +58,7 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "2", 
+        "feature": "1", 
         "value": "14.0000"
       }, 
       "not ", 

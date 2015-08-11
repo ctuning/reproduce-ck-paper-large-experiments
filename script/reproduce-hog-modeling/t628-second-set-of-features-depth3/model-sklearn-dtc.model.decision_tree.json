@@ -40,8 +40,8 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "6", 
-        "value": "1152.0000"
+        "feature": "8", 
+        "value": "1333504.0000"
       }
     ], 
     "dot_label": "6", 
@@ -88,8 +88,8 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "2", 
-        "value": "40.0000"
+        "feature": "4", 
+        "value": "1200.0000"
       }
     ], 
     "dot_label": "10", 
@@ -112,8 +112,8 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "6", 
-        "value": "1152.0000"
+        "feature": "8", 
+        "value": "1333504.0000"
       }
     ], 
     "dot_label": "7", 
@@ -154,8 +154,8 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "2", 
-        "value": "40.0000"
+        "feature": "4", 
+        "value": "1200.0000"
       }
     ], 
     "dot_label": "11", 

@@ -16,12 +16,12 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "5", 
-        "value": "399.5000"
+        "feature": "4", 
+        "value": "1200.0000"
       }
     ], 
     "dot_label": "3", 
-    "value": false
+    "value": true
   }, 
   "3": {
     "decision": [
@@ -58,12 +58,12 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "5", 
-        "value": "399.5000"
+        "feature": "4", 
+        "value": "1200.0000"
       }
     ], 
     "dot_label": "4", 
-    "value": true
+    "value": false
   }, 
   "5": {
     "decision": [
@@ -82,7 +82,7 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "2", 
+        "feature": "1", 
         "value": "38.0000"
       }
     ], 
@@ -124,7 +124,7 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "2", 
+        "feature": "1", 
         "value": "38.0000"
       }
     ], 

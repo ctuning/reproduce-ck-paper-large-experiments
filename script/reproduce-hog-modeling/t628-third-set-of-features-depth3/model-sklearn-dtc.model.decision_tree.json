@@ -4,7 +4,7 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "", 
@@ -28,7 +28,7 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "not ", 
@@ -52,7 +52,7 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "", 
@@ -76,7 +76,7 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "", 
@@ -100,7 +100,7 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "not ", 
@@ -124,7 +124,7 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "not ", 
@@ -142,7 +142,7 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "", 
