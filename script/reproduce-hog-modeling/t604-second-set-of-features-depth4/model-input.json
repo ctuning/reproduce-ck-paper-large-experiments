@@ -5,7 +5,8 @@
     "meta":{
       "device name": "Mali-T604", 
       "kernel name": "calc_histogram", 
-      "program name": "Realeyes HOG"
+      "program name": "Realeyes HOG",
+      "data_points":"many"
      }
   },
 

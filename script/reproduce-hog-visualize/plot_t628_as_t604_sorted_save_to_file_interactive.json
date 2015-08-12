@@ -1,0 +1,63 @@
+{
+  "experiment_module_uoa":"experiment",
+  "data_uoa_list":["hog-mali-t628-as-t604"],
+
+  "flat_keys_list":[
+    "##features#size#min",
+    "##characteristics#cpu_div_by_gpu_copy#min"
+  ],
+
+  "plot_type":"d3_2d_scatter",
+
+  "display_x_error_bar":"no",
+  "display_y_error_bar":"no",
+
+  "substitute_x_with_loop":"yes",
+  "sort_index":"1",
+
+  "title":"Adaptive (predictive) scheduling; ARM GPU Mali-T628; Realeyes HOG program (Powered by Collective Knowledge)",
+
+  "axis_x_desc":"Experiment No",
+  "axis_y_desc":"CPU time / GPU with memory copy time",
+
+  "plot_grid":"yes",
+
+  "xmin":0,
+  "xmax":300,
+  "ymin":0,
+  "ymax":8,
+
+  "h_lines":[1.1],
+  "v_lines":[230],
+
+    "out_repo_uoa":"reproduce-ck-paper-large-experiments",
+    "out_data_uoa":"carp-autotune-and-adaptation-hog-arm-gpu-t604-and-t628",
+
+    "point_style":{"0":{"size":4, "color":"#3366cc"}},
+
+    "size_x": 700, 
+    "size_y": 400, 
+
+    "experiment_module_uoa": "experiment", 
+
+    "out_common_meta": {
+       "get_shared_repo": "ck pull repo:reproduce-ck-paper-large-experiments", 
+       "name": "CARP project - reproducing HOG multi-objective autotuning for further online adaptation", 
+       "scripts_data_uoa": "c47f9890b1518d2f", 
+       "scripts_module_uoa": "script", 
+       "scripts_repo_uoa": "", 
+       "shared_repo": "reproduce-ck-paper-large-experiments"
+    },
+    "out_graph_extra_meta":{
+      "name": "CPU time / GPU with memory copy time for sorted experiments (ARM GPU T628; tuned parameters are the same as T604)", 
+      "notes": "Demo of the parametric, multi-objective autotuning of HOG via CK for further run-time adaptation via predictive scheduling",
+      "output": "html"
+    },
+
+  "out_to_file":                 "reproduce_ck_paper_hog_predictive_sheduling_t628_as_t604.html",
+  "save_to_style":               "reproduce_ck_paper_hog_predictive_sheduling_t628_as_t604.style",
+
+  "save_table_to_json_file":     "reproduce_ck_paper_hog_predictive_sheduling_t628_as_t604.json",
+  "save_info_table_to_json_file":"reproduce_ck_paper_hog_predictive_sheduling_t628_as_t604.json",
+  "save_table_to_csv_file":      "reproduce_ck_paper_hog_predictive_sheduling_t628_as_t604.csv"
+}

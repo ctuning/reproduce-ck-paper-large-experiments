@@ -1,13 +1,6 @@
 {
   "experiment_repo_uoa":"reproduce-ck-paper-large-experiments",
-
-  "search_dict":{
-    "meta":{
-      "device name": "Mali-T628", 
-      "kernel name": "calc_histogram", 
-      "program name": "Realeyes HOG"
-     }
-  },
+  "experiment_uoa":"hog-mali-t628-as-t604",
 
   "features_flat_keys_ext":"#min",
 

@@ -1,13 +1,6 @@
 {
   "experiment_module_uoa":"experiment",
-
-  "search_dict":{
-    "meta":{
-      "device name": "Mali-T628", 
-      "kernel name": "calc_histogram", 
-      "program name": "Realeyes HOG"
-     }
-    },
+  "experiment_uoa":"hog-mali-t628",
 
   "flat_keys_list":[
     "##features#size#min",
@@ -22,10 +15,10 @@
   "substitute_x_with_loop":"yes",
   "sort_index":"1",
 
-  "title":"Powered by CK (ARM GPU Mali-T628, Realeyes HOG, calc_histogram)",
+  "title":"Adaptive (predictive) scheduling; ARM GPU Mali-T628; Realeyes HOG program (Powered by Collective Knowledge)",
 
-  "axis_x_desc":"Dimension 1",
-  "axis_y_desc":"Dimension 2",
+  "axis_x_desc":"Workload size",
+  "axis_y_desc":"CPU with memory copy time (s.)",
 
   "plot_grid":"yes",
 

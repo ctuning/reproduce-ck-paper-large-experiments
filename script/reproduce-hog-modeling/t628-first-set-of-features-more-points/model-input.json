@@ -1,0 +1,22 @@
+{
+  "experiment_repo_uoa":"reproduce-ck-paper-large-experiments",
+  "experiment_uoa":"hog-mali-t628",
+
+  "features_flat_keys_ext":"#min",
+
+  "features_flat_keys_list":[
+    "##features#size"
+   ],
+
+   "features_flat_keys_desc": {
+      "##features#size":{"name":"worksize"}
+  },
+
+  "characteristics_flat_keys_list":[
+    "##characteristics#gpu_copy_is_much_better_cpu#min"
+  ],
+
+  "remove_points_with_none":"yes",
+
+  "keep_temp_files":"yes"
+}

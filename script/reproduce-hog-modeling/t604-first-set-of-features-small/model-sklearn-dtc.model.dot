@@ -1,0 +1,11 @@
+digraph Tree {
+0 [label="if X[0] (worksize) <= 40.0000\nsamples = 20", shape="box"] ;
+1 [label="*L1*\nsamples = 7\nNO (7) / YES (0)\n\nNO", shape="box"] ;
+0 -> 1 [label="yes"];
+2 [label="if X[0] (worksize) <= 96.0000\nsamples = 13", shape="box"] ;
+0 -> 2 [label="no"];
+3 [label="*L2*\nsamples = 6\nNO (1) / YES (5)\n\n*YES*", shape="box"] ;
+2 -> 3 [label="yes"];
+4 [label="*L3*\nsamples = 7\nNO (0) / YES (7)\n\nYES", shape="box"] ;
+2 -> 4 [label="no"];
+}

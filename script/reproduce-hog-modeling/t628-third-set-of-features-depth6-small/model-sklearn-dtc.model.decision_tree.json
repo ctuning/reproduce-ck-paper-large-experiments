@@ -1,0 +1,80 @@
+{
+  "1": {
+    "decision": [
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "10", 
+        "value": "2087.0000"
+      }
+    ], 
+    "dot_label": "1", 
+    "value": true
+  }, 
+  "3": {
+    "decision": [
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "10", 
+        "value": "2087.0000"
+      }, 
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "0", 
+        "value": "96.0000"
+      }, 
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "11", 
+        "value": "2.2514"
+      }
+    ], 
+    "dot_label": "5", 
+    "value": true
+  }, 
+  "2": {
+    "decision": [
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "10", 
+        "value": "2087.0000"
+      }, 
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "0", 
+        "value": "96.0000"
+      }
+    ], 
+    "dot_label": "3", 
+    "value": false
+  }, 
+  "4": {
+    "decision": [
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "10", 
+        "value": "2087.0000"
+      }, 
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "0", 
+        "value": "96.0000"
+      }, 
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "11", 
+        "value": "2.2514"
+      }
+    ], 
+    "dot_label": "6", 
+    "value": false
+  }
+}

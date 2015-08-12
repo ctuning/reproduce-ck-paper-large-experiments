@@ -4,7 +4,7 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "", 
@@ -34,7 +34,7 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "not ", 
@@ -64,7 +64,7 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "", 
@@ -73,34 +73,28 @@
         "feature": "10", 
         "value": "3098.5000"
       }, 
-      "", 
+      "not ", 
       {
         "comparison": "<=", 
         "feature": "11", 
         "value": "2.2514"
       }, 
-      "not ", 
+      "", 
       {
         "comparison": "<=", 
-        "feature": "1", 
-        "value": "40.0000"
-      }, 
-      "not ", 
-      {
-        "comparison": "<=", 
-        "feature": "2", 
-        "value": "56.0000"
+        "feature": "13", 
+        "value": "823.0000"
       }
     ], 
     "dot_label": "26", 
-    "value": true
+    "value": false
   }, 
   "12": {
     "decision": [
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "", 
@@ -120,15 +114,9 @@
         "comparison": "<=", 
         "feature": "1", 
         "value": "40.0000"
-      }, 
-      "", 
-      {
-        "comparison": "<=", 
-        "feature": "2", 
-        "value": "56.0000"
       }
     ], 
-    "dot_label": "25", 
+    "dot_label": "24", 
     "value": true
   }, 
   "15": {
@@ -136,7 +124,7 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "", 
@@ -154,17 +142,17 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "9", 
+        "feature": "13", 
         "value": "823.0000"
       }, 
-      "", 
+      "not ", 
       {
         "comparison": "<=", 
-        "feature": "1", 
-        "value": "56.0000"
+        "feature": "8", 
+        "value": "1091840.0000"
       }
     ], 
-    "dot_label": "30", 
+    "dot_label": "29", 
     "value": false
   }, 
   "14": {
@@ -172,7 +160,7 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "", 
@@ -187,76 +175,46 @@
         "feature": "11", 
         "value": "2.2514"
       }, 
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "13", 
+        "value": "823.0000"
+      }, 
       "", 
       {
         "comparison": "<=", 
-        "feature": "9", 
-        "value": "823.0000"
+        "feature": "8", 
+        "value": "1091840.0000"
       }
     ], 
     "dot_label": "28", 
-    "value": false
-  }, 
-  "17": {
-    "decision": [
-      "not ", 
-      {
-        "comparison": "<=", 
-        "feature": "1", 
-        "value": "14.0000"
-      }, 
-      "not ", 
-      {
-        "comparison": "<=", 
-        "feature": "10", 
-        "value": "3098.5000"
-      }
-    ], 
-    "dot_label": "32", 
-    "value": false
+    "value": true
   }, 
   "16": {
     "decision": [
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
-      "", 
+      "not ", 
       {
         "comparison": "<=", 
         "feature": "10", 
         "value": "3098.5000"
-      }, 
-      "not ", 
-      {
-        "comparison": "<=", 
-        "feature": "11", 
-        "value": "2.2514"
-      }, 
-      "not ", 
-      {
-        "comparison": "<=", 
-        "feature": "9", 
-        "value": "823.0000"
-      }, 
-      "not ", 
-      {
-        "comparison": "<=", 
-        "feature": "1", 
-        "value": "56.0000"
       }
     ], 
-    "dot_label": "31", 
-    "value": true
+    "dot_label": "30", 
+    "value": false
   }, 
   "1": {
     "decision": [
       "", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "", 
@@ -286,7 +244,7 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "", 
@@ -310,19 +268,19 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "11", 
-        "value": "2.2542"
+        "feature": "5", 
+        "value": "399.5000"
       }
     ], 
     "dot_label": "7", 
-    "value": false
+    "value": true
   }, 
   "2": {
     "decision": [
       "", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "", 
@@ -346,19 +304,19 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "11", 
-        "value": "2.2542"
+        "feature": "5", 
+        "value": "399.5000"
       }
     ], 
     "dot_label": "6", 
-    "value": true
+    "value": false
   }, 
   "5": {
     "decision": [
       "", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "", 
@@ -376,14 +334,14 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "12", 
-        "value": "2164935.0000"
+        "feature": "6", 
+        "value": "2551.5000"
       }, 
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "10", 
-        "value": "23694.0000"
+        "feature": "6", 
+        "value": "2510.5000"
       }
     ], 
     "dot_label": "11", 
@@ -394,7 +352,7 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "", 
@@ -412,14 +370,14 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "12", 
-        "value": "2164935.0000"
+        "feature": "6", 
+        "value": "2551.5000"
       }, 
       "", 
       {
         "comparison": "<=", 
-        "feature": "10", 
-        "value": "23694.0000"
+        "feature": "6", 
+        "value": "2510.5000"
       }
     ], 
     "dot_label": "10", 
@@ -430,7 +388,7 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "not ", 
@@ -454,7 +412,7 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "", 
@@ -472,8 +430,8 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "12", 
-        "value": "2164935.0000"
+        "feature": "6", 
+        "value": "2551.5000"
       }
     ], 
     "dot_label": "12", 
@@ -484,7 +442,7 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "not ", 
@@ -508,8 +466,8 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "8", 
-        "value": "645912.5000"
+        "feature": "6", 
+        "value": "788.5000"
       }
     ], 
     "dot_label": "18", 
@@ -520,7 +478,7 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "1", 
+        "feature": "2", 
         "value": "14.0000"
       }, 
       "not ", 
@@ -544,8 +502,8 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "8", 
-        "value": "645912.5000"
+        "feature": "6", 
+        "value": "788.5000"
       }
     ], 
     "dot_label": "17", 

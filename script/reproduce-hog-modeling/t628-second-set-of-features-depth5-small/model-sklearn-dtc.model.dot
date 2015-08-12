@@ -1,0 +1,15 @@
+digraph Tree {
+0 [label="if X[8] (image size) <= 1020160.0000\nsamples = 20", shape="box"] ;
+1 [label="if X[7] (image rows) <= 660.0000\nsamples = 3", shape="box"] ;
+0 -> 1 [label="yes"];
+2 [label="*L1*\nsamples = 1\nNO (1) / YES (0)\n\nNO", shape="box"] ;
+1 -> 2 [label="yes"];
+3 [label="*L2*\nsamples = 2\nNO (0) / YES (2)\n\nYES", shape="box"] ;
+1 -> 3 [label="no"];
+4 [label="if X[1] (GWS0) <= 14.0000\nsamples = 17", shape="box"] ;
+0 -> 4 [label="no"];
+5 [label="*L3*\nsamples = 5\nNO (4) / YES (1)\n\n*NO*", shape="box"] ;
+4 -> 5 [label="yes"];
+6 [label="*L4*\nsamples = 12\nNO (12) / YES (0)\n\nNO", shape="box"] ;
+4 -> 6 [label="no"];
+}

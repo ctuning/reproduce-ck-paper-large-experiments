@@ -1,8 +1,8 @@
 digraph Tree {
-0 [label="if X[1] (GWS0) <= 14.0000\nsamples = 460", shape="box"] ;
+0 [label="if X[2] (GWS1) <= 14.0000\nsamples = 276", shape="box"] ;
 1 [label="if X[4] (CPU frequency) <= 1200.0000\nsamples = 92", shape="box"] ;
 0 -> 1 [label="yes"];
-2 [label="if X[6] (image columns) <= 2411.0000\nsamples = 46", shape="box"] ;
+2 [label="if X[8] (image size) <= 5813042.0000\nsamples = 46", shape="box"] ;
 1 -> 2 [label="yes"];
 3 [label="*L1*\nsamples = 26\nNO (1) / YES (25)\n\nYES", shape="box"] ;
 2 -> 3 [label="yes"];
@@ -14,14 +14,14 @@ digraph Tree {
 5 -> 6 [label="yes"];
 7 [label="*L4*\nsamples = 32\nNO (32) / YES (0)\n\nNO", shape="box"] ;
 5 -> 7 [label="no"];
-8 [label="if X[7] (image rows) <= 1374.5000\nsamples = 368", shape="box"] ;
+8 [label="if X[6] (image columns) <= 1457.5000\nsamples = 184", shape="box"] ;
 0 -> 8 [label="no"];
-9 [label="if X[4] (CPU frequency) <= 1200.0000\nsamples = 128", shape="box"] ;
+9 [label="if X[2] (GWS1) <= 40.0000\nsamples = 64", shape="box"] ;
 8 -> 9 [label="yes"];
-10 [label="*L5*\nsamples = 64\nNO (50) / YES (14)\n\n*NO*", shape="box"] ;
+10 [label="*L5*\nsamples = 32\nNO (32) / YES (0)\n\nNO", shape="box"] ;
 9 -> 10 [label="yes"];
-11 [label="*L6*\nsamples = 64\nNO (64) / YES (0)\n\nNO", shape="box"] ;
+11 [label="*L6*\nsamples = 32\nNO (23) / YES (9)\n\n*NO*", shape="box"] ;
 9 -> 11 [label="no"];
-12 [label="*L7*\nsamples = 240\nNO (240) / YES (0)\n\nNO", shape="box"] ;
+12 [label="*L7*\nsamples = 120\nNO (120) / YES (0)\n\nNO", shape="box"] ;
 8 -> 12 [label="no"];
 }

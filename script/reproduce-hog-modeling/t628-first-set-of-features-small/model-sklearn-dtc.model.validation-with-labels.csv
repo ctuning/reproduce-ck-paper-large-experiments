@@ -1,0 +1,21 @@
+Label:;Original value;predicted value;correct?
+1;False;False;True
+3;False;False;True
+1;False;False;True
+1;False;False;True
+2;False;False;True
+3;True;False;False
+1;False;False;True
+3;False;False;True
+1;False;False;True
+3;False;False;True
+2;True;False;False
+3;True;False;False
+2;False;False;True
+1;False;False;True
+2;False;False;True
+2;False;False;True
+3;False;False;True
+2;False;False;True
+1;False;False;True
+1;False;False;True

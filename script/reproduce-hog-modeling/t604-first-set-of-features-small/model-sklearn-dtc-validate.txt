@@ -1,0 +1,24 @@
+1) [128] => True True 
+2) [128] => True True 
+3) [128] => True True 
+4) [64] => True True 
+5) [64] => True True 
+6) [128] => True True 
+7) [64] => True True 
+8) [16] => False False 
+9) [64] => False True ***
+10) [16] => False False 
+11) [128] => True True 
+12) [64] => True True 
+13) [16] => False False 
+14) [128] => True True 
+15) [128] => True True 
+16) [16] => False False 
+17) [16] => False False 
+18) [64] => True True 
+19) [16] => False False 
+20) [16] => False False 
+
+Model RMSE =      0.22360679775
+Prediction rate = 95.000%
+Mispredictions =  1 out of 20

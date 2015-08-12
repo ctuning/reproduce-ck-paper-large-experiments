@@ -1,0 +1,15 @@
+digraph Tree {
+0 [label="if X[10] (size / GPU frequency) <= 2087.0000\nsamples = 20", shape="box"] ;
+1 [label="*L1*\nsamples = 2\nNO (0) / YES (2)\n\nYES", shape="box"] ;
+0 -> 1 [label="yes"];
+2 [label="if X[0] (worksize) <= 96.0000\nsamples = 18", shape="box"] ;
+0 -> 2 [label="no"];
+3 [label="*L2*\nsamples = 13\nNO (13) / YES (0)\n\nNO", shape="box"] ;
+2 -> 3 [label="yes"];
+4 [label="if X[12] (size / (CPU frequency / GPU frequency)) <= 3234963.0000\nsamples = 5", shape="box"] ;
+2 -> 4 [label="no"];
+5 [label="*L3*\nsamples = 4\nNO (4) / YES (0)\n\nNO", shape="box"] ;
+4 -> 5 [label="yes"];
+6 [label="*L4*\nsamples = 1\nNO (0) / YES (1)\n\nYES", shape="box"] ;
+4 -> 6 [label="no"];
+}

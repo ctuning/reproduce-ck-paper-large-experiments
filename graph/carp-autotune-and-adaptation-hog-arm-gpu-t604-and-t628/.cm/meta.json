@@ -1,0 +1,135 @@
+{
+  "get_shared_repo": "ck pull repo:reproduce-ck-paper-large-experiments", 
+  "graphs": [
+    {
+      "id": "reproduce_ck_paper_hog_predictive_sheduling_t604", 
+      "name": "CPU time / GPU with memory copy time for sorted experiments (ARM GPU T604)", 
+      "notes": "Demo of the parametric, multi-objective autotuning of HOG via CK for further run-time adaptation via predictive scheduling", 
+      "output": "html", 
+      "params": {
+        "axis_x_desc": "Experiment No", 
+        "axis_y_desc": "CPU time / GPU with memory copy time", 
+        "data_uoa_list": [
+          "hog-mali-t604"
+        ], 
+        "display_x_error_bar": "no", 
+        "display_y_error_bar": "no", 
+        "experiment_module_uoa": "experiment", 
+        "flat_keys_list": [
+          "##features#size#min", 
+          "##characteristics#cpu_div_by_gpu_copy#min"
+        ], 
+        "plot_type": "d3_2d_scatter", 
+        "point_style": {
+          "0": {
+            "color": "#3366cc", 
+            "size": 4
+          }
+        }, 
+        "save_info_table_to_json_file": "reproduce_ck_paper_hog_predictive_sheduling_t604.json", 
+        "save_table_to_csv_file": "reproduce_ck_paper_hog_predictive_sheduling_t604.csv", 
+        "save_table_to_json_file": "reproduce_ck_paper_hog_predictive_sheduling_t604.json", 
+        "size_x": 700, 
+        "size_y": 400, 
+        "sort_index": "1", 
+        "substitute_x_with_loop": "yes", 
+        "title": "Adaptive (predictive) scheduling; ARM GPU Mali-T604; Realeyes HOG program (Powered by Collective Knowledge)", 
+        "xmax": 300, 
+        "xmin": 0, 
+        "ymax": 8, 
+        "ymin": 0
+      }
+    }, 
+    {
+      "id": "reproduce_ck_paper_hog_predictive_sheduling_t628", 
+      "name": "CPU time / GPU with memory copy time for sorted experiments (ARM GPU T628)", 
+      "notes": "Demo of the parametric, multi-objective autotuning of HOG via CK for further run-time adaptation via predictive scheduling", 
+      "output": "html", 
+      "params": {
+        "axis_x_desc": "Experiment No", 
+        "axis_y_desc": "CPU time / GPU with memory copy time", 
+        "data_uoa_list": [
+          "hog-mali-t628"
+        ], 
+        "display_x_error_bar": "no", 
+        "display_y_error_bar": "no", 
+        "experiment_module_uoa": "experiment", 
+        "flat_keys_list": [
+          "##features#size#min", 
+          "##characteristics#cpu_div_by_gpu_copy#min"
+        ], 
+        "plot_grid": "yes", 
+        "plot_type": "d3_2d_scatter", 
+        "point_style": {
+          "0": {
+            "color": "#3366cc", 
+            "size": 4
+          }
+        }, 
+        "save_info_table_to_json_file": "reproduce_ck_paper_hog_predictive_sheduling_t628.json", 
+        "save_table_to_csv_file": "reproduce_ck_paper_hog_predictive_sheduling_t628.csv", 
+        "save_table_to_json_file": "reproduce_ck_paper_hog_predictive_sheduling_t628.json", 
+        "size_x": 700, 
+        "size_y": 400, 
+        "sort_index": "1", 
+        "substitute_x_with_loop": "yes", 
+        "title": "Adaptive (predictive) scheduling; ARM GPU Mali-T628; Realeyes HOG program (Powered by Collective Knowledge)", 
+        "xmax": 500, 
+        "xmin": 0, 
+        "ymax": 8, 
+        "ymin": 0
+      }
+    }, 
+    {
+      "id": "reproduce_ck_paper_hog_predictive_sheduling_t628_as_t604", 
+      "name": "CPU time / GPU with memory copy time for sorted experiments (ARM GPU T628; tuned parameters are the same as T604)", 
+      "notes": "Demo of the parametric, multi-objective autotuning of HOG via CK for further run-time adaptation via predictive scheduling", 
+      "output": "html", 
+      "params": {
+        "axis_x_desc": "Experiment No", 
+        "axis_y_desc": "CPU time / GPU with memory copy time", 
+        "data_uoa_list": [
+          "hog-mali-t628-as-t604"
+        ], 
+        "display_x_error_bar": "no", 
+        "display_y_error_bar": "no", 
+        "experiment_module_uoa": "experiment", 
+        "flat_keys_list": [
+          "##features#size#min", 
+          "##characteristics#cpu_div_by_gpu_copy#min"
+        ], 
+        "h_lines": [
+          1.1
+        ], 
+        "plot_grid": "yes", 
+        "plot_type": "d3_2d_scatter", 
+        "point_style": {
+          "0": {
+            "color": "#3366cc", 
+            "size": 4
+          }
+        }, 
+        "save_info_table_to_json_file": "reproduce_ck_paper_hog_predictive_sheduling_t628_as_t604.json", 
+        "save_table_to_csv_file": "reproduce_ck_paper_hog_predictive_sheduling_t628_as_t604.csv", 
+        "save_table_to_json_file": "reproduce_ck_paper_hog_predictive_sheduling_t628_as_t604.json", 
+        "size_x": 700, 
+        "size_y": 400, 
+        "sort_index": "1", 
+        "substitute_x_with_loop": "yes", 
+        "title": "Adaptive (predictive) scheduling; ARM GPU Mali-T628; Realeyes HOG program (Powered by Collective Knowledge)", 
+        "v_lines": [
+          230
+        ], 
+        "xmax": 300, 
+        "xmin": 0, 
+        "ymax": 8, 
+        "ymin": 0
+      }
+    }
+  ], 
+  "name": "CARP project - reproducing HOG multi-objective autotuning for further online adaptation", 
+  "scripts_data_uoa": "c47f9890b1518d2f", 
+  "scripts_module_uoa": "script", 
+  "scripts_repo_uoa": "", 
+  "shared_repo": "reproduce-ck-paper-large-experiments"
+}

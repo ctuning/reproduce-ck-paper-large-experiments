@@ -1,0 +1,74 @@
+{
+  "1": {
+    "decision": [
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "6", 
+        "value": "1008.0000"
+      }, 
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "7", 
+        "value": "660.0000"
+      }
+    ], 
+    "dot_label": "2", 
+    "value": false
+  }, 
+  "3": {
+    "decision": [
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "6", 
+        "value": "1008.0000"
+      }, 
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "2", 
+        "value": "14.0000"
+      }
+    ], 
+    "dot_label": "5", 
+    "value": false
+  }, 
+  "2": {
+    "decision": [
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "6", 
+        "value": "1008.0000"
+      }, 
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "7", 
+        "value": "660.0000"
+      }
+    ], 
+    "dot_label": "3", 
+    "value": true
+  }, 
+  "4": {
+    "decision": [
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "6", 
+        "value": "1008.0000"
+      }, 
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "2", 
+        "value": "14.0000"
+      }
+    ], 
+    "dot_label": "6", 
+    "value": false
+  }
+}

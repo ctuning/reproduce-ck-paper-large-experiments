@@ -28,8 +28,8 @@
       "", 
       {
         "comparison": "<=", 
-        "feature": "8", 
-        "value": "2175156.5000"
+        "feature": "7", 
+        "value": "1374.5000"
       }
     ], 
     "dot_label": "5", 
@@ -64,8 +64,8 @@
       "not ", 
       {
         "comparison": "<=", 
-        "feature": "8", 
-        "value": "2175156.5000"
+        "feature": "7", 
+        "value": "1374.5000"
       }
     ], 
     "dot_label": "6", 

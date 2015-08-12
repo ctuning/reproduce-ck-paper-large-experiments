@@ -1,5 +1,5 @@
 digraph Tree {
-0 [label="if X[2] (GWS1) <= 14.0000\nsamples = 460", shape="box"] ;
+0 [label="if X[1] (GWS0) <= 14.0000\nsamples = 276", shape="box"] ;
 1 [label="if X[4] (CPU frequency) <= 1200.0000\nsamples = 92", shape="box"] ;
 0 -> 1 [label="yes"];
 2 [label="if X[10] (size / GPU frequency) <= 21853.0000\nsamples = 46", shape="box"] ;
@@ -10,7 +10,7 @@ digraph Tree {
 3 -> 4 [label="yes"];
 5 [label="*L2*\nsamples = 2\nNO (1) / YES (1)\n\n*NO*", shape="box"] ;
 3 -> 5 [label="no"];
-6 [label="if X[12] (size / (CPU frequency / GPU frequency)) <= 2164935.0000\nsamples = 12", shape="box"] ;
+6 [label="if X[13] (image size / CPU frequency) <= 8138.5000\nsamples = 12", shape="box"] ;
 2 -> 6 [label="no"];
 7 [label="*L3*\nsamples = 3\nNO (2) / YES (1)\n\n*NO*", shape="box"] ;
 6 -> 7 [label="yes"];
@@ -26,22 +26,22 @@ digraph Tree {
 11 -> 12 [label="yes"];
 13 [label="*L7*\nsamples = 37\nNO (37) / YES (0)\n\nNO", shape="box"] ;
 11 -> 13 [label="no"];
-14 [label="if X[10] (size / GPU frequency) <= 3098.5000\nsamples = 368", shape="box"] ;
+14 [label="if X[10] (size / GPU frequency) <= 3098.5000\nsamples = 184", shape="box"] ;
 0 -> 14 [label="no"];
-15 [label="if X[11] (CPU frequency / GPU frequency) <= 2.2514\nsamples = 96", shape="box"] ;
+15 [label="if X[11] (CPU frequency / GPU frequency) <= 2.2514\nsamples = 48", shape="box"] ;
 14 -> 15 [label="yes"];
-16 [label="if X[1] (GWS0) <= 40.0000\nsamples = 32", shape="box"] ;
+16 [label="if X[2] (GWS1) <= 40.0000\nsamples = 16", shape="box"] ;
 15 -> 16 [label="yes"];
-17 [label="*L8*\nsamples = 16\nNO (16) / YES (0)\n\nNO", shape="box"] ;
+17 [label="*L8*\nsamples = 8\nNO (8) / YES (0)\n\nNO", shape="box"] ;
 16 -> 17 [label="yes"];
-18 [label="*L9*\nsamples = 16\nNO (3) / YES (13)\n\n*YES*", shape="box"] ;
+18 [label="*L9*\nsamples = 8\nNO (0) / YES (8)\n\nYES", shape="box"] ;
 16 -> 18 [label="no"];
-19 [label="if X[9] (size / CPU frequency) <= 823.0000\nsamples = 64", shape="box"] ;
+19 [label="if X[13] (image size / CPU frequency) <= 823.0000\nsamples = 32", shape="box"] ;
 15 -> 19 [label="no"];
-20 [label="*L10*\nsamples = 56\nNO (56) / YES (0)\n\nNO", shape="box"] ;
+20 [label="*L10*\nsamples = 28\nNO (28) / YES (0)\n\nNO", shape="box"] ;
 19 -> 20 [label="yes"];
-21 [label="*L11*\nsamples = 8\nNO (7) / YES (1)\n\n*NO*", shape="box"] ;
+21 [label="*L11*\nsamples = 4\nNO (3) / YES (1)\n\n*NO*", shape="box"] ;
 19 -> 21 [label="no"];
-22 [label="*L12*\nsamples = 272\nNO (272) / YES (0)\n\nNO", shape="box"] ;
+22 [label="*L12*\nsamples = 136\nNO (136) / YES (0)\n\nNO", shape="box"] ;
 14 -> 22 [label="no"];
 }

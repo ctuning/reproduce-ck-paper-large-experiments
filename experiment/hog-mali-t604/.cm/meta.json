@@ -14,6 +14,7 @@
     ]
   }, 
   "meta": {
+    "data_points": "many", 
     "device name": "Mali-T604", 
     "device type": "GPU", 
     "device vendor": "ARM", 
