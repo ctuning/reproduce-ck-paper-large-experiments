@@ -1,6 +1,6 @@
 {
   "experiment_module_uoa":"experiment",
-  "data_uoa_list":["hog-mali-t628"],
+  "data_uoa_list":["hog-mali-t604"],
 
   "flat_keys_list":[
     "##features#size#min",
@@ -15,7 +15,7 @@
   "substitute_x_with_loop":"yes",
   "sort_index":"1",
 
-  "title":"Adaptive (predictive) scheduling; ARM GPU Mali-T628; Realeyes HOG program (Powered by Collective Knowledge)",
+  "title":"Adaptive (predictive) scheduling; ARM GPU Mali-T604; Realeyes HOG program (Powered by Collective Knowledge)",
 
   "axis_x_desc":"Experiment No",
   "axis_y_desc":"GPU only time (s.)",
@@ -26,7 +26,7 @@
   "mpl_image_size_y":"6",
   "mpl_image_dpi":"100",
 
-  "save_table_to_csv_file":      "plot_t628_sorted_with_variation_gpu_only_out.csv",
-  "save_table_to_json_file":     "plot_t628_sorted_with_variation_gpu_only_out.json",
-  "save_info_table_to_json_file":"plot_t628_sorted_with_variation_gpu_only_info_out.json"
+  "save_table_to_csv_file":      "plot_t604_sorted_with_variation_gpu_only_out.csv",
+  "save_table_to_json_file":     "plot_t604_sorted_with_variation_gpu_only_out.json",
+  "save_info_table_to_json_file":"plot_t604_sorted_with_variation_gpu_only_info_out.json"
 }
