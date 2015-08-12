@@ -55,6 +55,6 @@
   "save_to_style":               "reproduce_ck_paper_hog_predictive_sheduling_t628.style",
 
   "save_table_to_json_file":     "reproduce_ck_paper_hog_predictive_sheduling_t628.json",
-  "save_info_table_to_json_file":"reproduce_ck_paper_hog_predictive_sheduling_t628.json",
+  "save_info_table_to_json_file":"reproduce_ck_paper_hog_predictive_sheduling_t628_info.json",
   "save_table_to_csv_file":      "reproduce_ck_paper_hog_predictive_sheduling_t628.csv"
 }
