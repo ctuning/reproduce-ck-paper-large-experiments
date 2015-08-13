@@ -1,0 +1,88 @@
+{
+  "flat_keys": [
+    "##characteristics#cpu",
+    "##characteristics#gpu_copy",
+    "##characteristics#gpu_only",
+    "##characteristics#cpu_div_by_gpu_copy",
+    "##features#compiler name",
+    "##features#compiler version",
+    "##features#GWS@0", 
+    "##features#GWS@1", 
+    "##features#GWS@2", 
+    "##features#LWS@0", 
+    "##features#LWS@1", 
+    "##features#LWS@2", 
+    "##features#OFFSET@0", 
+    "##features#OFFSET@1", 
+    "##features#OFFSET@2", 
+    "##features#cpu_freq",
+    "##features#gpu_freq",
+    "##features#image cols",
+    "##features#image rows",
+    "##features#size"
+  ], 
+  "flat_keys_desc": [
+    {
+      "desc": "CPU time" 
+    }, 
+    {
+      "desc": "GPU with mem time" 
+    }, 
+    {
+      "desc": "GPU only time" 
+    }, 
+    {
+      "desc": "CPU/GPU with mem",
+      "format": "%2.2f"
+    }, 
+    {
+      "desc": "Compiler name" 
+    }, 
+    {
+      "desc": "Compiler version" 
+    }, 
+    {
+      "desc": "GWS X"
+    }, 
+    {
+      "desc": "GWS Y"
+    }, 
+    {
+      "desc": "GWS Z"
+    }, 
+    {
+      "desc": "LWS X"
+    }, 
+    {
+      "desc": "LWS Y"
+    }, 
+    {
+      "desc": "LWS Z"
+    }, 
+    {
+      "desc": "OFFSET X" 
+    }, 
+    {
+      "desc": "OFFSET Y" 
+    }, 
+    {
+      "desc": "OFFSET Z" 
+    },
+    {
+      "desc": "CPU freq" 
+    },
+    {
+      "desc": "GPU freq" 
+    },
+    {
+      "desc": "image cols" 
+    },
+    {
+      "desc": "image rows" 
+    },
+    {
+      "desc": "size" 
+    }
+  ], 
+  "no_replay": "yes"
+}
