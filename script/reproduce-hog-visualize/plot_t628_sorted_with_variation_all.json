@@ -6936,6 +6936,9 @@
 
   "plot_grid":"yes",
 
+  "ymin":0,
+  "ymax":0.25,
+
   "mpl_image_size_x":"12",
   "mpl_image_size_y":"6",
   "mpl_image_dpi":"100",
