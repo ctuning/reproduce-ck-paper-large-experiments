@@ -4174,5 +4174,8 @@
   "mpl_image_size_y":"6",
   "mpl_image_dpi":"100",
 
+  "v_lines":[92],
+  "v_lines_color":"#00ff00",
+
   "out_to_file":"plot_t604_sorted_with_variation_all.png"
 }

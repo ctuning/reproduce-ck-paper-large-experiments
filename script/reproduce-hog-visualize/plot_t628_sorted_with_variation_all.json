@@ -6938,5 +6938,8 @@
 
   "mpl_image_size_x":"12",
   "mpl_image_size_y":"6",
-  "mpl_image_dpi":"100"
+  "mpl_image_dpi":"100",
+
+  "v_lines":[420],
+  "v_lines_color":"#00ff00"
 }
