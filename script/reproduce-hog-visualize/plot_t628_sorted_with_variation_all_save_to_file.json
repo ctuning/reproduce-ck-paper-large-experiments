@@ -6943,8 +6943,5 @@
   "v_lines":[420],
   "v_lines_color":"#00ff00",
 
-  "ymin":0,
-  "ymax":0.25,
-
   "out_to_file":"plot_t628_sorted_with_variation_all.png"
 }
