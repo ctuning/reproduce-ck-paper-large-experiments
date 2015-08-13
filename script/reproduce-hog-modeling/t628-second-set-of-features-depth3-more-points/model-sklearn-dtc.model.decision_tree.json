@@ -1,0 +1,164 @@
+{
+  "1": {
+    "decision": [
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "2", 
+        "value": "14.0000"
+      }, 
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "4", 
+        "value": "1200.0000"
+      }, 
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "8", 
+        "value": "5813042.0000"
+      }
+    ], 
+    "dot_label": "3", 
+    "value": true
+  }, 
+  "3": {
+    "decision": [
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "2", 
+        "value": "14.0000"
+      }, 
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "4", 
+        "value": "1200.0000"
+      }, 
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "8", 
+        "value": "1333504.0000"
+      }
+    ], 
+    "dot_label": "6", 
+    "value": false
+  }, 
+  "2": {
+    "decision": [
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "2", 
+        "value": "14.0000"
+      }, 
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "4", 
+        "value": "1200.0000"
+      }, 
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "8", 
+        "value": "5813042.0000"
+      }
+    ], 
+    "dot_label": "4", 
+    "value": false
+  }, 
+  "5": {
+    "decision": [
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "2", 
+        "value": "14.0000"
+      }, 
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "8", 
+        "value": "2175156.5000"
+      }, 
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "4", 
+        "value": "1200.0000"
+      }
+    ], 
+    "dot_label": "10", 
+    "value": false
+  }, 
+  "4": {
+    "decision": [
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "2", 
+        "value": "14.0000"
+      }, 
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "4", 
+        "value": "1200.0000"
+      }, 
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "8", 
+        "value": "1333504.0000"
+      }
+    ], 
+    "dot_label": "7", 
+    "value": false
+  }, 
+  "7": {
+    "decision": [
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "2", 
+        "value": "14.0000"
+      }, 
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "8", 
+        "value": "2175156.5000"
+      }
+    ], 
+    "dot_label": "12", 
+    "value": false
+  }, 
+  "6": {
+    "decision": [
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "2", 
+        "value": "14.0000"
+      }, 
+      "", 
+      {
+        "comparison": "<=", 
+        "feature": "8", 
+        "value": "2175156.5000"
+      }, 
+      "not ", 
+      {
+        "comparison": "<=", 
+        "feature": "4", 
+        "value": "1200.0000"
+      }
+    ], 
+    "dot_label": "11", 
+    "value": false
+  }
+}
