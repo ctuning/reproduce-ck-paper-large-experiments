@@ -12,3 +12,7 @@ the following papers on "Collective Mind" and "Collective Knowledge":
 However, HOG experiments and predictive analytics are a bit
 outdated. That's why moved it here.
 
+Prerequisites
+=============
+* Collective Knowledge Framework: http://github.com/ctuning/ck
+
