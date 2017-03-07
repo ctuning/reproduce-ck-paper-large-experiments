@@ -1,6 +1,9 @@
 CK extra repository to reproduce paper
 ======================================
 
+[![logo](https://github.com/ctuning/ck-guide-images/blob/master/logo-powered-by-ck.png)](http://cKnowledge.org)
+[![logo](https://github.com/ctuning/ck-guide-images/blob/master/logo-validated-by-the-community-simple.png)](http://cTuning.org)
+
 Large, shared artifacts to reproduce and extend techniques from
 the following papers on "Collective Mind" and "Collective Knowledge":
 
